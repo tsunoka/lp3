@@ -12,6 +12,8 @@ body {
 	font-family: "Noto Sans JP", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+
+	background-color: #fa7da3;
 }
 
 a {
@@ -33,7 +35,6 @@ img {
 	max-width: 100%;
 	height: auto;
 	vertical-align: bottom;
-
 }
 
 li {
@@ -64,4 +65,77 @@ span {
 	font-family: "Outfit", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+}
+
+
+/* 使いまわす設定
+------------------------------------------ */
+.button{
+	border-radius: 3rem;
+}
+
+.button a{
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+
+/* header
+------------------------------------------ */
+
+.header{
+	width:100%;
+	background-color: #fff;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+}
+
+.header__container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:12px 10px;
+
+}
+
+.header__logo img{
+	width:70px;
+	display: block;
+}
+
+
+.header__buttons-container{
+	display: flex;
+	column-gap:10px;
+}
+
+.header__button a{
+	padding:8px;
+	column-gap:8px;
+}
+
+.header__button-inquiry{
+	background-color: #fa7da3;
+}
+
+.header__button-reserve{
+	background-color: #49c43d;
+}
+
+.header__button-text{
+	font-size: 13px;
+	white-space: nowrap;
+}
+
+.header__button-arrow{
+	display: block;
+	width:7px;
+}
+
+.header__button-text--small{
+	display: inline-block;
+	font-size: 10px;
 }
