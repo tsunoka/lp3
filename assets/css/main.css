@@ -80,6 +80,22 @@ span {
 	align-items: center;
 }
 
+/*PC表示のみ:inner*/
+/*@media(min-width:768px) {
+	.inner {
+		padding: 1.25rem;
+
+	}
+}*/
+
+/*コンテンツ幅に到達するまでinnerの中身が動かないように設定*/
+/*@media(min-width:1150px) {
+	.inner {
+		width: 71.875rem;
+		padding: 1.25rem;
+		margin: 0 auto;
+	}
+}*/
 
 /* header
 ------------------------------------------ */
@@ -97,8 +113,14 @@ span {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding:12px 10px;
+	margin:12px 10px;
+}
 
+@media(min-width:768px){
+	.header__container{
+		margin:20px 200px;
+
+	}
 }
 
 .header__logo img{
@@ -106,6 +128,11 @@ span {
 	display: block;
 }
 
+@media(min-width:768px){
+	.header__logo img{
+		width:100px;
+	}
+}
 
 .header__buttons-container{
 	display: flex;
@@ -115,14 +142,6 @@ span {
 .header__button a{
 	padding:8px;
 	column-gap:8px;
-}
-
-.header__button-inquiry{
-	background-color: #fa7da3;
-}
-
-.header__button-reserve{
-	background-color: #49c43d;
 }
 
 .header__button-text{
@@ -138,4 +157,36 @@ span {
 .header__button-text--small{
 	display: inline-block;
 	font-size: 10px;
+}
+
+@media(min-width:768px){
+	.header__buttons-container{
+		column-gap: 26px;
+		flex-wrap: wrap;
+	}
+
+	.header__button a{
+		padding: 10px 20px;
+		column-gap: 12px;
+	}
+
+
+	.header__button-text{
+		font-size: 23px;
+	}
+
+	.header__button-text--small{
+		font-size: 18px;
+	}
+
+	.header__button-arrow{
+		width:12px;
+	}
+
+.header__button-inquiry{
+	background-color: #fa7da3;
+}
+
+.header__button-reserve{
+	background-color: #49c43d;
 }
