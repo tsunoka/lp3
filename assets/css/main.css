@@ -140,7 +140,7 @@ span {
 		width: 100px;
 	}
 }
-
+/*ボタン類*/
 .header__buttons-container {
 	display: flex;
 	column-gap: 10px;
