@@ -80,6 +80,10 @@ span {
 	align-items: center;
 }
 
+.inner{
+	width:100%;
+}
+
 /*PC表示のみ:inner*/
 /*@media(min-width:768px) {
 	.inner {
@@ -109,10 +113,13 @@ span {
 	right: 0;
 }
 
-.header__container {
+.header .inner{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.header__container {
 	margin: 12px 10px;
 }
 
@@ -159,6 +166,15 @@ span {
 	font-size: 10px;
 }
 
+.header__button-inquiry {
+	background-color: #fa7da3;
+}
+
+.header__button-reserve {
+	background-color: #49c43d;
+}
+
+
 @media(min-width:768px) {
 	.header__buttons-container {
 		column-gap: 26px;
@@ -183,11 +199,4 @@ span {
 		width: 12px;
 	}
 
-	.header__button-inquiry {
-		background-color: #fa7da3;
-	}
-
-	.header__button-reserve {
-		background-color: #49c43d;
-	}
 }
