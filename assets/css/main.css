@@ -3,18 +3,42 @@
 /* ページ全体のスタイル
 ------------------------------------------ */
 
-body {
-}
+body {}
 
-a {
-}
+a {}
 
-a:hover {
-}
+a:hover {}
 
-img {
-}
+img {}
 
 li {
-  list-style: none; /* リスト先頭の記号を表示しないときに指定します */
+	list-style: none;
+	/* リスト先頭の記号を表示しないときに指定します */
+}
+
+/* フォント
+------------------------------------------ */
+
+.noto-sans-jp-regular {
+	font-family: "Noto Sans JP", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.noto-sans-jp-semibold {
+	font-family: "Noto Sans JP", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.noto-sans-jp-bold {
+	font-family: "Noto Sans JP", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.outfit-regular {
+	font-family: "Outfit", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
