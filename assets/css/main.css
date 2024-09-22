@@ -70,11 +70,11 @@ span {
 
 /* 使いまわす設定
 ------------------------------------------ */
-.button{
+.button {
 	border-radius: 3rem;
 }
 
-.button a{
+.button a {
 	color: #fff;
 	display: flex;
 	align-items: center;
@@ -100,93 +100,94 @@ span {
 /* header
 ------------------------------------------ */
 
-.header{
-	width:100%;
+.header {
+	width: 100%;
 	background-color: #fff;
 	position: fixed;
-	top:0;
-	left:0;
-	right:0;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
-.header__container{
+.header__container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin:12px 10px;
+	margin: 12px 10px;
 }
 
-@media(min-width:768px){
-	.header__container{
-		margin:20px 200px;
+@media(min-width:768px) {
+	.header__container {
+		margin: 20px 200px;
 
 	}
 }
 
-.header__logo img{
-	width:70px;
+.header__logo img {
+	width: 70px;
 	display: block;
 }
 
-@media(min-width:768px){
-	.header__logo img{
-		width:100px;
+@media(min-width:768px) {
+	.header__logo img {
+		width: 100px;
 	}
 }
 
-.header__buttons-container{
+.header__buttons-container {
 	display: flex;
-	column-gap:10px;
+	column-gap: 10px;
 }
 
-.header__button a{
-	padding:8px;
-	column-gap:8px;
+.header__button a {
+	padding: 8px;
+	column-gap: 8px;
 }
 
-.header__button-text{
+.header__button-text {
 	font-size: 13px;
 	white-space: nowrap;
 }
 
-.header__button-arrow{
+.header__button-arrow {
 	display: block;
-	width:7px;
+	width: 7px;
 }
 
-.header__button-text--small{
+.header__button-text--small {
 	display: inline-block;
 	font-size: 10px;
 }
 
-@media(min-width:768px){
-	.header__buttons-container{
+@media(min-width:768px) {
+	.header__buttons-container {
 		column-gap: 26px;
 		flex-wrap: wrap;
 	}
 
-	.header__button a{
+	.header__button a {
 		padding: 10px 20px;
 		column-gap: 12px;
 	}
 
 
-	.header__button-text{
+	.header__button-text {
 		font-size: 23px;
 	}
 
-	.header__button-text--small{
+	.header__button-text--small {
 		font-size: 18px;
 	}
 
-	.header__button-arrow{
-		width:12px;
+	.header__button-arrow {
+		width: 12px;
 	}
 
-.header__button-inquiry{
-	background-color: #fa7da3;
-}
+	.header__button-inquiry {
+		background-color: #fa7da3;
+	}
 
-.header__button-reserve{
-	background-color: #49c43d;
+	.header__button-reserve {
+		background-color: #49c43d;
+	}
 }
