@@ -376,6 +376,20 @@ li {
 	font-size: 14px;
 }
 
+@media(min-width:768px) {
+	.mv__price .mv__right-inner {
+		margin-top: 9px;
+	}
+
+	.mv__price-text {
+		font-size: 16px;
+	}
+
+	.mv__price-text--large {
+		font-size: 26px;
+	}
+}
+
 /*feature*/
 
 .mv__feature {
@@ -389,7 +403,7 @@ li {
 
 @media(min-width:768px) {
 	.mv__feature .mv__right-inner {
-		margin: 0;
+		margin: 50px 0 20px;
 	}
 }
 
@@ -399,12 +413,26 @@ li {
 	row-gap: 10px;
 }
 
-
 .mv__feature-list {
 	border: solid 1px #fff;
 	padding: 4px 14px;
 	text-align: center;
 	font-size: 17px;
+}
+
+@media(min-width:768px) {
+	.mv__feature {
+		width: 100%;
+	}
+
+	.mv__feature ul {
+		row-gap: 18px;
+	}
+
+	.mv__feature-list {
+		padding: 15px 10px;
+		font-size: 27px;	}
+
 }
 
 
