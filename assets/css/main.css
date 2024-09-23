@@ -118,7 +118,46 @@ li {
 /* 一部を使いまわす部分
 	：free-trialエリア
 ------------------------------------------ */
+.free-trial,
+.free-trial__reserve{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
 
+.free-trial .container{
+	padding-top:10px;
+}
+
+.free-trial__reserve-button-heading{
+	color:#fa7da3;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.free-trial__reserve-button{
+	margin-top:10px;
+	padding:10px 70px;
+	background-color: #49c43d;
+	position: relative;
+}
+
+.free-trial__reserve-button a{
+	justify-content: center;
+
+}
+
+.free-trial__reserve-button-text{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.free-trial__reserve-button-arrow{
+	position:absolute;
+	right:30px;
+	width:12px;
+}
 
 /* header
 ------------------------------------------ */
