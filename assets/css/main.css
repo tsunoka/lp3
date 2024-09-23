@@ -41,10 +41,6 @@ li {
 	list-style: none;
 }
 
-span {
-	display: block;
-}
-
 
 /* フォント
 ------------------------------------------ */
@@ -162,7 +158,6 @@ span {
 }
 
 .header__button-text--small {
-	display: inline-block;
 	font-size: 10px;
 }
 
