@@ -237,6 +237,10 @@ li {
 	align-items: center;
 }
 
+.mv__right-inner{
+	margin: 17px 27px;
+}
+
 /*今だけ初月無料（campaign)-*/
 .mv__campaign{
 	background: rgba(255,255,255,.3);
@@ -248,7 +252,7 @@ li {
 .mv__campaign-container{
     height: 65px;
     overflow: hidden;
-    margin: 17px 27px;
+
     display: flex;
     align-items: flex-end;
     column-gap: 13px;
@@ -274,6 +278,7 @@ li {
 	font-size:23px;
 }
 
+/*0円*/
 .mv__campaign-right-text{
 	color:#fffd7a;
 	font-size: 33px;
@@ -284,8 +289,6 @@ li {
     line-height: 1;
     padding-right: 3px;
 }
-
-
 /*price*/
 
 /*feature*/
