@@ -45,7 +45,8 @@ li {
 /* フォント
 ------------------------------------------ */
 
-.noto-sans-jp-regular{ /*太字になってしまう時などに使う*/
+.noto-sans-jp-regular {
+	/*太字になってしまう時などに使う*/
 	font-family: "Noto Sans JP", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -206,8 +207,8 @@ li {
 
 /* mv
 ------------------------------------------ */
-.mv__container{
-	margin-top:62px;
+.mv__container {
+	margin-top: 62px;
 	background-color: #fa7da3;
 	background-image: url("/assets/images/mv_sp_02.jpg");
 	background-position: 50%;
@@ -215,138 +216,197 @@ li {
 	white-space: nowrap;
 }
 
-.mv .inner{
+@media(min-width:768px) {
+	.mv__container {
+		margin-top: 96px;
+		background-image: url("/assets/images/mv_pc_03.jpg");
+	}
+}
+
+.mv .inner {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 0;
 }
 
 /*---mv左側（見出し）---------*/
 
-.mv__left-container .section-title{
-	margin-top:12px;
-	margin-left:27px;
+.mv__left-container .section-title {
+	margin-top: 12px;
+	margin-left: 27px;
 	text-align: center;
 }
 
-.mv__left-container .section-title span{
+.mv__left-container .section-title span {
 	display: block;
 	color: #fff;
 }
 
-.mv__section-title-main{
+.mv__section-title-main {
 	font-size: 40px;
 	line-height: 1.25;
 }
 
-.mv__section-title-caption{
+.mv__section-title-caption {
 	font-size: 18px;
 }
 
 
 /*---mv右側-------------------*/
-.mv__right-container{
+.mv__right-container {
 	display: flex;
 	flex-direction: column;
-	align-items:flex-end;
+	align-items: flex-end;
 
 }
 
-.mv__right-inner{
+.mv__right-inner {
 	margin: 0 27px;
 }
 
+@media(min-width:768px) {
+	.mv__right-inner {
+		margin: 0 54px;
+	}
+}
+
 /*今だけ初月無料（campaign)-*/
-.mv__campaign{
-	background: rgba(255,255,255,.3);
-	width:100%;
+.mv__campaign {
+	background: rgba(255, 255, 255, .3);
+	width: 100%;
 
-	box-shadow: 5px 4px rgba(0,0,0,.07);
+	box-shadow: 5px 4px rgba(0, 0, 0, .07);
 }
 
-.mv__campaign .mv__right-inner{
+.mv__campaign .mv__right-inner {
 	margin-top: 17px;
-	margin-bottom:17px;
+	margin-bottom: 17px;
 }
 
-.mv__campaign-container{
-    height: 65px;
-    overflow: hidden;
-    display: flex;
-    align-items: flex-end;
-    column-gap: 13px;
+.mv__campaign-container {
+	height: 65px;
+	overflow: hidden;
+	display: flex;
+	align-items: flex-end;
+	column-gap: 13px;
 }
 
-.mv__campaign-left span{
+@media(min-width:768px) {
+	.mv__campaign .mv__right-inner {
+		margin-top: 20px;
+		margin-bottom: 28px;
+	}
+
+	.mv__campaign-container {
+		height: auto;
+		column-gap: 26px;
+	}
+}
+
+.mv__campaign-left span {
 	display: block;
 }
 
 /*今だけ*/
-.mv__campaign-left-text--enclose{
+.mv__campaign-left-text--enclose {
 	background-color: #fff;
-    color: #fa7da3;
-    font-size: 13px;
-    text-align: center;
-    padding: 2px;
-    margin-bottom: 3px;
+	color: #fa7da3;
+	font-size: 13px;
+	text-align: center;
+	padding: 2px;
+	margin-bottom: 3px;
 
 }
+
+@media(min-width:768px) {
+	.mv__campaign-left-text--enclose {
+		font-size: 28px;
+		padding: 5px 8px;
+		margin-bottom: 10px;
+	}
+}
+
 /*初月*/
-.mv__campaign-left-text{
+.mv__campaign-left-text {
 	color: #fff;
-	font-size:23px;
+	font-size: 23px;
+}
+
+@media(min-width:768px) {
+	.mv__campaign-left-text {
+		font-size: 50px;
+		margin-bottom: 7px;
+	}
 }
 
 /*0円*/
-.mv__campaign-right-text{
-	color:#fffd7a;
+.mv__campaign-right-text {
+	color: #fffd7a;
 	font-size: 33px;
 }
 
-.mv__campaign-right-text--large{
+.mv__campaign-right-text--large {
 	font-size: 65px;
-    line-height: 1;
-    padding-right: 3px;
+	line-height: 1;
+	padding-right: 3px;
 }
 
+@media(min-width:768px) {
+	.mv__campaign-right-text {
+		font-size: 70px;
+	}
+
+	.mv__campaign-right-text--large {
+		font-size: 150px;
+	}
+
+}
 
 /*price*/
-.mv__price .mv__right-inner{
-	margin-top:2px;
+.mv__price .mv__right-inner {
+	margin-top: 2px;
 }
 
-.mv__price-text{
+.mv__price-text {
 	color: #fff;
-	font-size:9px;
+	font-size: 9px;
 }
 
-.mv__price-text--large{
+.mv__price-text--large {
 	font-size: 14px;
 }
 
 /*feature*/
 
-.mv__feature{
-	color:#fff;
+.mv__feature {
+	color: #fff;
 }
 
-.mv__feature .mv__right-inner{
-	margin-top:17px;
-	margin-bottom:30px;
+.mv__feature .mv__right-inner {
+	margin-top: 17px;
+	margin-bottom: 30px;
 }
 
-.mv__feature ul{
+@media(min-width:768px) {
+	.mv__feature .mv__right-inner {
+		margin: 0;
+	}
+}
+
+.mv__feature ul {
 	display: flex;
 	flex-direction: column;
 	row-gap: 10px;
 }
 
 
-.mv__feature-list{
-    border: solid 1px #fff;
-    padding: 4px 14px;
-    text-align: center;
-    font-size: 17px;
+.mv__feature-list {
+	border: solid 1px #fff;
+	padding: 4px 14px;
+	text-align: center;
+	font-size: 17px;
 }
+
 
 /* special-favor
 ------------------------------------------ */
