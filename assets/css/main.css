@@ -87,6 +87,13 @@ li {
 	padding:20px;
 }
 
+@media(min-width:768px){
+	.container--thin{
+		width:600px;
+		margin:0 auto;
+	}
+}
+
 .inner {
 	width: 100%;
 }
@@ -484,21 +491,21 @@ li {
 }
 
 /*上部テキスト（「今だけ！」）*/
-.special-favor__limited-text{
+.special-favor__limited{
 	display:flex;
 	align-items: center;
 	justify-content: center;
 	column-gap:6px;
 	margin-bottom:12px;
+	color:#fa7da3;
 }
 
-.special-favor__limited-text span{
-	color:#fa7da3;
+.special-favor__limited-text{
 	font-size: 21px;
 }
 
 .spacial-favor__flame{
-	width:16px;
+	font-size:24px;
 }
 
 /*メインの部分（box)*/
