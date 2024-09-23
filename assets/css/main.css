@@ -13,7 +13,7 @@ body {
 	font-weight: 400;
 	font-style: normal;
 
-	background-color: #fa7da3;
+	background-color: #000;
 }
 
 a {
@@ -44,6 +44,12 @@ li {
 
 /* フォント
 ------------------------------------------ */
+
+.noto-sans-jp-regular{ /*太字になってしまう時などに使う*/
+	font-family: "Noto Sans JP", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
 
 .noto-sans-jp-semibold {
 	font-family: "Noto Sans JP", sans-serif;
@@ -204,6 +210,85 @@ li {
 
 /* mv
 ------------------------------------------ */
+.mv__container{
+	margin-top:62px;
+	background-color: #fa7da3;
+	background-image: url("/assets/images/mv_sp_02.jpg");
+	background-position: 50%;
+	background-size: cover;
+}
+
+.mv .inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*---mv左側（見出し）---------*/
+.section-title span{
+	display: block;
+	color: #fff;
+}
+
+
+/*---mv右側-------------------*/
+.mv__right-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*今だけ初月無料（campaign)-*/
+.mv__campaign{
+	background: rgba(255,255,255,.3);
+	width:100%;
+
+	box-shadow: 5px 4px rgba(0,0,0,.07);
+}
+
+.mv__campaign-container{
+    height: 65px;
+    overflow: hidden;
+    margin: 17px 27px;
+    display: flex;
+    align-items: flex-end;
+    column-gap: 13px;
+}
+
+.mv__campaign-left span{
+	display: block;
+}
+
+/*今だけ*/
+.mv__campaign-left-text--enclose{
+	background-color: #fff;
+    color: #fa7da3;
+    font-size: 13px;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 3px;
+
+}
+/*初月*/
+.mv__campaign-left-text{
+	color: #fff;
+	font-size:23px;
+}
+
+.mv__campaign-right-text{
+	color:#fffd7a;
+	font-size: 33px;
+}
+
+.mv__campaign-right-text--large{
+	font-size: 65px;
+    line-height: 1;
+    padding-right: 3px;
+}
+
+
+/*price*/
+
+/*feature*/
 
 /* special-favor
 ------------------------------------------ */
