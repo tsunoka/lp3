@@ -216,6 +216,7 @@ li {
 	background-image: url("/assets/images/mv_sp_02.jpg");
 	background-position: 50%;
 	background-size: cover;
+	white-space: nowrap;
 }
 
 .mv .inner{
@@ -224,9 +225,25 @@ li {
 }
 
 /*---mv左側（見出し）---------*/
-.section-title span{
+
+.mv__left-container .section-title{
+	margin-top:12px;
+	margin-left:27px;
+	text-align: center;
+}
+
+.mv__left-container .section-title span{
 	display: block;
 	color: #fff;
+}
+
+.mv__section-title-main{
+	font-size: 40px;
+	line-height: 1.25;
+}
+
+.mv__section-title-caption{
+	font-size: 18px;
 }
 
 
@@ -235,6 +252,7 @@ li {
 	display: flex;
 	flex-direction: column;
 	align-items:flex-end;
+
 }
 
 .mv__right-inner{
