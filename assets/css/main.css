@@ -296,9 +296,22 @@ li {
 
 
 /*price*/
+.mv__price{
+	margin-top:2px;
+}
 
+.mv__price-text{
+	color: #fff;
+	font-size:9px;
+}
+
+.mv__price-text--large{
+	font-size: 14px;
+}
 
 /*feature*/
+
+
 
 /* special-favor
 ------------------------------------------ */
