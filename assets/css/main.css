@@ -296,7 +296,7 @@ li {
 
 
 /*price*/
-.mv__price{
+.mv__price .mv__right-inner{
 	margin-top:2px;
 }
 
@@ -311,7 +311,28 @@ li {
 
 /*feature*/
 
+.mv__feature{
+	color:#fff;
+}
 
+.mv__feature .mv__right-inner{
+	margin-top:17px;
+	margin-bottom:30px;
+}
+
+.mv__feature ul{
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+
+.mv__feature-list{
+    border: solid 1px #fff;
+    padding: 4px 14px;
+    text-align: center;
+    font-size: 17px;
+}
 
 /* special-favor
 ------------------------------------------ */
