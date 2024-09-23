@@ -83,6 +83,10 @@ li {
 	align-items: center;
 }
 
+.container{
+	padding:30px 20px;
+}
+
 .inner {
 	width: 100%;
 }
@@ -464,7 +468,70 @@ li {
 
 /* special-favor
 ------------------------------------------ */
+.special-favor{
+	background-color: #fffedd;
+	text-align: center;
+}
 
+.special-favor .container{
+	padding-bottom: 12px;
+}
+
+/*上部テキスト（「今だけ！」）*/
+.special-favor__limited-text{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	column-gap:6px;
+	margin-bottom:12px;
+}
+
+.special-favor__limited-text span{
+	color:#fa7da3;
+	font-size: 21px;
+}
+
+.spacial-favor__flame{
+	width:16px;
+}
+
+/*メインの部分（box)*/
+.special-favor__box{
+	border:solid 1px #fa7da3;
+	border-radius: 0.75rem;
+	overflow: hidden;
+}
+
+.special-favor__box-heading{
+	background-color: #fa7da3;
+	vertical-align: middle;
+}
+
+.special-favor__box-heading-text{
+	color:#fff;
+	font-size: 21px;
+}
+
+.special-favor__box-content{
+	background-color: #fff;
+	padding:6px;
+
+}
+
+.special-favor__box-content-text{
+	color: #fa7da3;
+	font-size:26px;
+}
+
+.special-favor__box-content-text--large{
+	font-size:40px;
+	line-height: 1;
+}
+
+/*caption*/
+.special-favor__caption{
+	font-size:10px;
+}
 
 /* points
 ------------------------------------------ */
