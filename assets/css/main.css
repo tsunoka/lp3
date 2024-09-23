@@ -90,7 +90,7 @@ li {
 /*PC表示のみ:inner*/
 @media(min-width:768px) {
 	.inner {
-		padding: 20px;
+		padding: 30px;
 
 	}
 }
@@ -99,7 +99,7 @@ li {
 @media(min-width:1030px) {
 	.inner {
 		width: 1030px;
-		padding: 20px;
+		padding: 30px;
 		margin: 0 auto;
 	}
 }
@@ -141,7 +141,7 @@ li {
 
 @media(min-width:768px) {
 	.header__logo img {
-		width: 100px;
+		width: 96px;
 	}
 }
 
@@ -181,7 +181,7 @@ li {
 
 @media(min-width:768px) {
 	.header__buttons-container {
-		column-gap: 26px;
+		column-gap: 19px;
 		flex-wrap: nowrap;
 	}
 
@@ -192,7 +192,7 @@ li {
 
 
 	.header__button-text {
-		font-size: 23px;
+		font-size: 20px;
 	}
 
 	.header__button-text--small {
@@ -200,7 +200,7 @@ li {
 	}
 
 	.header__button-arrow {
-		width: 12px;
+		width: 10px;
 	}
 
 }
@@ -218,7 +218,7 @@ li {
 
 @media(min-width:768px) {
 	.mv__container {
-		margin-top: 96px;
+		margin-top: 92px;
 		background-image: url("/assets/images/mv_pc_03.jpg");
 	}
 }
