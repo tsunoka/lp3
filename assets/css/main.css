@@ -89,7 +89,7 @@ li {
 
 @media(min-width:768px){
 	.container--thin{
-		width:600px;
+		width:500px;
 		margin:0 auto;
 	}
 }
@@ -481,6 +481,7 @@ li {
 
 /* special-favor
 ------------------------------------------ */
+
 .special-favor{
 	background-color: #fffedd;
 	text-align: center;
@@ -488,6 +489,12 @@ li {
 
 .special-favor .container{
 	padding-bottom: 12px;
+}
+
+@media(min-width:768px){
+	.special-favor .container{
+		padding: 0;
+	}
 }
 
 /*上部テキスト（「今だけ！」）*/
@@ -504,8 +511,18 @@ li {
 	font-size: 21px;
 }
 
-.spacial-favor__flame{
+.special-favor__flame{
 	font-size:24px;
+}
+
+@media(min-width:768px){
+	.special-favor__limited-text{
+		font-size: 30px;
+	}
+
+	.special-favor__flame{
+		font-size:36px;
+	}
 }
 
 /*メインの部分（box)*/
@@ -513,6 +530,12 @@ li {
 	border:solid 1px #fa7da3;
 	border-radius: 0.75rem;
 	overflow: hidden;
+}
+
+@media(min-width:768px){
+	.special-favor__box{
+		margin-bottom:10px;
+	}
 }
 
 .special-favor__box-heading{
@@ -524,6 +547,13 @@ li {
 	color:#fff;
 	font-size: 21px;
 }
+
+@media(min-width:768px){
+	.special-favor__box-heading-text{
+		font-size: 28px;
+	}
+}
+
 
 .special-favor__box-content{
 	background-color: #fff;
@@ -541,9 +571,32 @@ li {
 	line-height: 1;
 }
 
+@media(min-width:768px){
+	.special-favor__box-content{
+		padding:10px;
+	}
+
+	.special-favor__box-content-text{
+		font-size:38px;
+	}
+
+	.special-favor__box-content-text--large{
+		font-size:60px;
+	}
+}
+
+
 /*caption*/
 .special-favor__caption{
 	font-size:10px;
+}
+
+
+@media(min-width:768px){
+	.special-favor__caption{
+		font-size:14px;
+	}
+
 }
 
 /* points
