@@ -211,9 +211,14 @@ li {
 
 /* mv
 ------------------------------------------ */
+
+.mv{
+	background-color: #fa7da3;
+
+}
+
 .mv__container {
 	margin-top: 62px;
-	background-color: #fa7da3;
 	background-image: url("/assets/images/mv_sp_02.jpg");
 	background-position: 50%;
 	background-size: cover;
@@ -230,6 +235,7 @@ li {
 .mv .inner {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	padding-top: 0;
 }
 
