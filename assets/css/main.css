@@ -90,7 +90,7 @@ li {
 /*PC表示のみ:inner*/
 @media(min-width:768px) {
 	.inner {
-		padding: 30px;
+		padding: 25px 65px;
 
 	}
 }
@@ -99,7 +99,7 @@ li {
 @media(min-width:1030px) {
 	.inner {
 		width: 1030px;
-		padding: 30px;
+		padding: 25px 65px;
 		margin: 0 auto;
 	}
 }
@@ -130,7 +130,7 @@ li {
 
 @media(min-width:768px) {
 	.header__container {
-		margin: 20px clamp(1.25rem, -28rem + 45vw, 12.5rem);
+		margin: 20px clamp(1.25rem, -34.5rem + 55vw, 15rem);
 	}
 }
 
@@ -245,12 +245,37 @@ li {
 .mv__section-title-main {
 	font-size: 40px;
 	line-height: 1.25;
+	text-shadow:
+		6px 0 40px #fa7da3,
+		6px 0 40px #fa7da3,
+		6px 0 40px #fa7da3,
+		6px 0 40px #fa7da3,
+		6px 0 40px #fa7da3;
 }
 
 .mv__section-title-caption {
 	font-size: 18px;
 }
 
+@media(min-width:768px) {
+	.mv__left-container .section-title {
+		margin-top: 12px;
+		margin-left: 0;
+		text-align: right;
+	}
+
+	.mv__section-title-main {
+		font-size: 112px;
+		margin-right: 20px;
+		letter-spacing: 3px;
+	}
+
+	.mv__section-title-caption {
+		font-size: 34px;
+		margin-right: 10px;
+	}
+
+}
 
 /*---mv右側-------------------*/
 .mv__right-container {
@@ -431,7 +456,8 @@ li {
 
 	.mv__feature-list {
 		padding: 15px 10px;
-		font-size: 27px;	}
+		font-size: 27px;
+	}
 
 }
 
