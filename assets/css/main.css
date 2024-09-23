@@ -94,19 +94,17 @@ li {
 /*PC表示のみ:inner*/
 @media(min-width:768px) {
 	.inner {
-		padding: 25px 0;
-		margin:0 auto;
+		padding: 25px 65px;
 
-	}
-	.inner--thin{
-		width:600px;
 	}
 }
 
 /*コンテンツ幅に到達するまでinnerの中身が動かないように設定*/
-@media(min-width:900px) {
-	.inner--thick{
-		width: 900px;
+@media(min-width:1030px) {
+	.inner {
+		width: 1030px;
+		padding: 25px 65px;
+		margin: 0 auto;
 	}
 }
 
