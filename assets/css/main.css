@@ -130,10 +130,18 @@ li {
 	padding-top:10px;
 }
 
+/*ボタン部分（使いまわす部分）*/
 .free-trial__reserve-button-heading{
 	color:#fa7da3;
 	font-size: 20px;
 	letter-spacing: 2px;
+}
+
+@media(min-width:768px){
+	.free-trial__reserve-button-heading{
+		font-size: 28px;
+		letter-spacing: 3px;
+		}
 }
 
 .free-trial__reserve-button{
@@ -141,6 +149,12 @@ li {
 	padding:10px 70px;
 	background-color: #49c43d;
 	position: relative;
+}
+
+@media(min-width:768px){
+	.free-trial__reserve-button{
+		padding: 14px 82px;
+	}
 }
 
 .free-trial__reserve-button a{
@@ -157,6 +171,18 @@ li {
 	position:absolute;
 	right:30px;
 	width:12px;
+}
+
+@media(min-width:768px){
+	.free-trial__reserve-button-text{
+		font-size: 27px;
+		letter-spacing: 3px;
+		}
+
+	.free-trial__reserve-button-arrow{
+		right:40px;
+		width:16px;
+	}
 }
 
 /* header
