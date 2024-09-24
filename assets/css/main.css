@@ -126,6 +126,12 @@ li {
 	padding-top:30px;
 }
 
+@media(min-width:768px){
+	.section-title{
+		padding-top:20px;
+	}
+}
+
 .section-title >span{
 	display: flex;
 	align-items:center;
@@ -136,6 +142,13 @@ li {
 	font-size: 18px;
 	letter-spacing: 1px;
 	margin-bottom:5px;
+}
+
+@media(min-width:768px){
+	.section-title__subtext{
+		font-size: 20px;
+		letter-spacing: 0;
+	}
 }
 
 
@@ -153,6 +166,15 @@ li {
 	margin-left:3px;
 }
 
+@media(min-width:768px){
+	.section-title__heading{
+		font-size: 38px;
+	}
+
+	.section-title__frame{
+		width:50px;
+	}
+}
 
 
 /* 一部を使いまわす部分
@@ -806,6 +828,16 @@ li {
 .section-title__subtext img{
 	width:196px;
 	margin:0 4px -2px;
+}
+
+@media(min-width:768px){
+	.points .section-title__subtext{
+		font-size:17px;
+	}
+
+	.points .section-title__subtext img{
+		width:245px;
+	}
 }
 
 
