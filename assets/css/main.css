@@ -73,6 +73,9 @@ li {
 
 /* 使いまわす設定
 ------------------------------------------ */
+
+/*---button---------------------*/
+
 .button {
 	border-radius: 3rem;
 }
@@ -82,6 +85,8 @@ li {
 	display: flex;
 	align-items: center;
 }
+
+/*---container,inner------------*/
 
 .container{
 	padding:20px;
@@ -114,6 +119,41 @@ li {
 		margin: 0 auto;
 	}
 }
+
+/*---section-title--------------*/
+
+.section-title{
+	padding-top:30px;
+}
+
+.section-title >span{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.section-title__subtext{
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-bottom:5px;
+}
+
+
+.section-title__heading{
+	color: #fa7da3;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.section-title__frame{
+	width:36px;
+}
+
+.section-title__heading >span{
+	margin-left:3px;
+}
+
+
 
 /* 一部を使いまわす部分
 	：free-trialエリア
@@ -391,6 +431,7 @@ li {
 /*---mv左側（見出し）---------*/
 
 .mv__left-container .section-title {
+	padding: 0;
 	margin-top: 12px;
 	margin-left: 27px;
 	text-align: center;
@@ -748,11 +789,27 @@ li {
 /* points
 ------------------------------------------ */
 .points{
-	height: 10px;
 	background-color: #fdf0f5;
 }
 
-/*---points全体---------------*/
+.points .container{
+	padding-top:0;
+}
+
+
+/*セクションタイトルの変更点*/
+.points .section-title__subtext{
+	align-items: baseline;
+	color: #4d2b1b;
+}
+
+.section-title__subtext img{
+	width:196px;
+	margin:0 4px -2px;
+}
+
+
+/*---使いまわし部分---------------*/
 
 /* ---point-Unlimited-visits--*/
 /* ---point-plans-------------*/
