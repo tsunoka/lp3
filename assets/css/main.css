@@ -89,7 +89,7 @@ li {
 
 @media(min-width:768px){
 	.container--thin{
-		width:500px;
+		width:540px;
 		margin:0 auto;
 	}
 }
@@ -148,6 +148,7 @@ li {
 .free-trial__reserve-button{
 	margin-top:10px;
 	padding:10px 70px;
+	border-radius: 10rem;
 	background-color: #49c43d;
 	position: relative;
 }
@@ -191,8 +192,17 @@ li {
 }
 
 /*無料体験内容（ここから使いまわさない部分）*/
+
+
+
 .free-trial__discription{
 	margin-top: 30px;
+}
+
+@media(min-width:768px){
+	.free-trial__discription{
+		margin-top:40px;
+	}
 }
 
 .free-trial__discription-heading{
@@ -204,6 +214,16 @@ li {
 	font-size: 17px;
     letter-spacing: 2px;
 	margin-bottom:10px;
+}
+
+@media(min-width:768px){
+	.free-trial__discription-heading{
+		border-width: 1.5px;
+		padding: 9px 0 11px;
+		font-size: 23px;
+		letter-spacing: 3px;
+		margin-bottom: 13px;
+	}
 }
 
 .free-trial__discription-item{
@@ -219,6 +239,21 @@ li {
 .free-trial__discription-item-content--most-small{
 	font-size: 11px;
 }
+
+@media(min-width:768px){
+	.free-trial__discription-item{
+		font-size: 19px;
+	}
+
+	.free-trial__discription-item-content--small{
+		font-size: 14px;
+	}
+	.free-trial__discription-item-content--most-small{
+		font-size: 14px;
+	}
+}
+
+
 
 /* header
 ------------------------------------------ */
@@ -602,6 +637,10 @@ li {
 @media(min-width:768px){
 	.special-favor .container{
 		padding: 0;
+	}
+
+	.special-favor .container--thin{
+		width:500px;
 	}
 }
 
