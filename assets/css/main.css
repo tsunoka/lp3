@@ -178,7 +178,7 @@ li {
 	}
 }
 
-/*box*/
+/*---box-------------------*/
 
 .box{
 	border:solid 1px #fa7da3;
@@ -200,9 +200,15 @@ li {
 
 .box__content{
 	background-color: #fff;
+	padding:10px 14px 15px;
 }
 
 .box__content-text{
+	font-size:14px;
+}
+
+.box__content-example{
+	margin-top:10px;
 }
 
 /* 一部を使いまわす部分
