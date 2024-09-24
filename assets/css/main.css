@@ -128,6 +128,7 @@ li {
 
 .free-trial .container{
 	padding-top:10px;
+	padding-bottom:35px;
 }
 
 /*ボタン部分（使いまわす部分）*/
@@ -183,6 +184,36 @@ li {
 		right:40px;
 		width:16px;
 	}
+}
+
+/*無料体験内容（ここから使いまわさない部分）*/
+.free-trial__discription{
+	margin-top: 30px;
+}
+
+.free-trial__discription-heading{
+    display: block;
+    color: #50bfff;
+    border-top: solid 1px #50bfff;
+    border-bottom: solid 1px #50bfff;
+	padding: 6px 0 7px;
+	font-size: 17px;
+    letter-spacing: 2px;
+	margin-bottom:10px;
+}
+
+.free-trial__discription-item{
+	text-align: left;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.free-trial__discription-item-content--small{
+	font-size: 11px;
+}
+
+.free-trial__discription-item-content--most-small{
+	font-size: 11px;
 }
 
 /* header
@@ -666,6 +697,11 @@ li {
 
 /* points
 ------------------------------------------ */
+.points{
+	height: 10px;
+	background-color: #fdf0f5;
+}
+
 /*---points全体---------------*/
 
 /* ---point-Unlimited-visits--*/
