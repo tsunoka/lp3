@@ -124,11 +124,13 @@ li {
 
 .section-title{
 	padding-top:30px;
+	padding-bottom:25px;
 }
 
 @media(min-width:768px){
 	.section-title{
 		padding-top:20px;
+
 	}
 }
 
@@ -176,6 +178,32 @@ li {
 	}
 }
 
+/*box*/
+
+.box{
+	border:solid 1px #fa7da3;
+	border-radius: 0.75rem;
+	overflow: hidden;
+
+}
+
+.box__heading{
+	background-color: #fa7da3;
+	vertical-align: middle;
+	padding:10px 0;
+	text-align: center;
+}
+
+.box__heading-text{
+	color:#fff;
+}
+
+.box__content{
+	background-color: #fff;
+}
+
+.box__content-text{
+}
 
 /* 一部を使いまわす部分
 	：free-trialエリア
@@ -735,61 +763,52 @@ li {
 }
 
 /*メインの部分（box)*/
-.special-favor__box{
-	border:solid 1px #fa7da3;
-	border-radius: 0.75rem;
-	overflow: hidden;
-}
-
 @media(min-width:768px){
-	.special-favor__box{
+	.special-favor .box{
 		margin-bottom:10px;
 	}
 }
 
-.special-favor__box-heading{
-	background-color: #fa7da3;
-	vertical-align: middle;
+.special-favor .box__heading{
+	padding: 0;
 }
 
-.special-favor__box-heading-text{
-	color:#fff;
+.special-favor .box__heading-text{
 	font-size: 21px;
 }
 
 @media(min-width:768px){
-	.special-favor__box-heading-text{
+	.special-favor .box__heading-text{
 		font-size: 28px;
 	}
 }
 
 
-.special-favor__box-content{
-	background-color: #fff;
+.special-favor .box__content{
 	padding:6px;
 
 }
 
-.special-favor__box-content-text{
+.special-favor .box__content-text{
 	color: #fa7da3;
 	font-size:26px;
 }
 
-.special-favor__box-content-text--large{
+.special-favor .box__content-text--large{
 	font-size:40px;
 	line-height: 1;
 }
 
 @media(min-width:768px){
-	.special-favor__box-content{
+	.special-favor .box__content{
 		padding:10px;
 	}
 
-	.special-favor__box-content-text{
+	.special-favor .box__content-text{
 		font-size:38px;
 	}
 
-	.special-favor__box-content-text--large{
+	.special-favor .box__content-text--large{
 		font-size:60px;
 	}
 }
@@ -840,12 +859,18 @@ li {
 	}
 }
 
-
 /*---使いまわし部分---------------*/
+
+.points .box{
+	margin-bottom:30px;
+}
 
 /* ---point-Unlimited-visits--*/
 /* ---point-plans-------------*/
 /* ---point-support-----------*/
+.points__support .box{
+	margin-bottom: 10px;
+}
 
 /* course
 ------------------------------------------ */
