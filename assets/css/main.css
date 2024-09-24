@@ -163,6 +163,10 @@ li {
 
 }
 
+.free-trial__reserve-button:hover{
+	background-color: #40e02f;
+}
+
 .free-trial__reserve-button-text{
 	font-size: 20px;
 	letter-spacing: 2px;
@@ -283,6 +287,14 @@ li {
 
 .header__button-reserve {
 	background-color: #49c43d;
+}
+
+.header__button-inquiry:hover{
+	background-color: #fc4d81;
+}
+
+.header__button-reserve:hover{
+	background-color: #40e02f;
 }
 
 
