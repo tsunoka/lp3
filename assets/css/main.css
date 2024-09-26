@@ -225,7 +225,7 @@ li {
 
 .box__content{
 	background-color: #fff;
-	padding:10px 14px 15px;
+	padding:10px 20px 15px;
 }
 
 .box__content-text{
@@ -906,9 +906,45 @@ li {
 	margin-bottom:30px;
 }
 
-/* ---point-Unlimited-visits--*/
-/* ---point-plans-------------*/
-/* ---point-support-----------*/
+/* ---unlimited-visits--*/
+.points__unlimited-visits-example-container{
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	column-gap: 22px;
+
+}
+.points__unlimited-visits-item{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.points__unlimited-visits-item-text{
+	font-size:14px;
+	padding-top:3px;
+}
+
+@media(min-width:768px){
+	.points__unlimited-visits-example-container{
+		margin-top: 25px;
+		justify-content: center;
+		column-gap: 17px;
+	}
+
+	.points__unlimited-visits-item-text{
+		font-size:18px;
+		padding-top: 10px;
+	}
+
+	.points__unlimited-visits-item img{
+		width:90%;
+		height: auto;
+	}
+}
+
+/* ---plans-------------*/
+/* ---support-----------*/
 .points__support .box{
 	margin-bottom: 10px;
 }
