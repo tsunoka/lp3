@@ -985,9 +985,33 @@ li {
 
 /* course
 ------------------------------------------ */
+.course .container{
+	padding-top:0;
+}
+
+.course .box__heading{
+	background-color:#fdf0f5;
+}
+
+.course .box__heading-text{
+	color: #fa7da3;
+}
+
+.course__box-list{
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
 
 /* voices
 ------------------------------------------ */
+.voices{
+	background-color: #fdf0f5;
+}
+
+.voices .container{
+	padding-top: 0;
+}
 
 /* footer
 ------------------------------------------ */
