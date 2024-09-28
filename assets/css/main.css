@@ -395,6 +395,7 @@ li {
 	top: 0;
 	left: 0;
 	right: 0;
+	z-index: 2;
 }
 
 .header__container {
@@ -997,10 +998,28 @@ li {
 	color: #fa7da3;
 }
 
+@media(min-width:768px){
+
+	.course .box__heading{
+		padding:10px;
+	}
+
+	.course .box__content{
+		padding: 10px;
+	}
+}
+
 .course__box-list{
 	display: flex;
 	flex-direction: column;
 	row-gap: 30px;
+}
+
+@media(min-width:768px){
+	.course__box-list{
+		flex-direction: row;
+		column-gap: 25px;
+	}
 }
 
 /* voices
